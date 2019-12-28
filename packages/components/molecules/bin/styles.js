@@ -4,10 +4,10 @@ export default StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginHorizontal: 10,
+    marginHorizontal: 8,
   },
   image: {
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
   },
 });

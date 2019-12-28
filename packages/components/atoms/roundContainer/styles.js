@@ -3,9 +3,10 @@ import {colors} from '@private/core/common';
 
 export default StyleSheet.create({
   container: {
-    height: 70,
-    margin: 20,
-    borderRadius: 35,
+    height: 60,
+    marginVertical: 20,
+    marginHorizontal: 35,
+    borderRadius: 30,
     overflow: 'hidden',
     backgroundColor: colors.primary,
   },

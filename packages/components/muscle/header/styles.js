@@ -17,7 +17,7 @@ export default StyleSheet.create({
     marginHorizontal: 10,
   },
   user_name: {
-    ...typography.h4,
+    ...typography.h5,
     color: colors.onPrimary,
     margin: 5,
   },

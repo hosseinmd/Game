@@ -8,8 +8,8 @@ export default StyleSheet.create({
     marginHorizontal: 5,
   },
   image: {
-    width: 30,
-    height: 30,
+    width: 25,
+    height: 25,
   },
   count: {
     margin: 5,
