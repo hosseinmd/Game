@@ -1,8 +1,6 @@
 import React, {memo} from 'react';
 import styles from './styles';
-import {RoundContainer} from '../../atoms';
-import {Touchable} from '../../atoms/Touchable';
-import Text from '../../atoms/Text';
+import {RoundContainer, Touchable, Text} from '../../atoms';
 
 export const Button = memo(({children}) => {
   return (
