@@ -3,7 +3,7 @@ import {SafeAreaView, StatusBar, View} from 'react-native';
 import styles from './styles';
 import {texts} from '@private/core/common/texts';
 import {Button} from '../../molecules';
-import {Header} from '../../muscle';
+import {Header, BottomNavigation} from '../../muscle';
 
 export const Home = () => {
   return (
@@ -13,6 +13,7 @@ export const Home = () => {
         <Header />
         <View style={styles.content} />
         <Button>{texts.START_GAME}</Button>
+        <BottomNavigation />
       </SafeAreaView>
     </>
   );
