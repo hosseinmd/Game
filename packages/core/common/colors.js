@@ -1,6 +1,6 @@
 export const colors = {
   background: '#323caa',
-  onBackground: 'white',
+  onBackground: '#b9ffcd',
   primary: '#009a4e',
   onPrimary: '#8ce9b3',
 };
