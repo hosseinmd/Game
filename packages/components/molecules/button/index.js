@@ -4,9 +4,9 @@ import {RoundContainer, Touchable, Text} from '../../atoms';
 
 export const Button = memo(({children}) => {
   return (
-    <RoundContainer>
-      <Touchable style={styles.container}>
-        <Text>{children}</Text>
+    <RoundContainer style={styles.container}>
+      <Touchable style={styles.touchable}>
+        <Text style={styles.label}>{children}</Text>
       </Touchable>
     </RoundContainer>
   );
