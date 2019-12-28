@@ -1,7 +1,8 @@
 package com.game;
 
 import com.facebook.react.ReactActivity;
-
+import android.os.Bundle;
+import android.view.View;
 public class MainActivity extends ReactActivity {
 
   /**
@@ -11,5 +12,20 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "Game";
+  }
+
+  @Override
+  public void onWindowFocusChanged(boolean hasFocus) {
+      super.onWindowFocusChanged(hasFocus);
+      if (hasFocus) {
+          hideNavigationBar();
+      }
+  }
+
+  private void hideNavigationBar() {
+      getWindow().getDecorView().setSystemUiVisibility(
+          View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+          | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+
   }
 }
